@@ -1,0 +1,33 @@
+{
+  "name": "NodeJS-Express-Typescript-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbegaM/NodeJS-Express-Typescript-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbegaM/NodeJS-Express-Typescript-/issues"
+  },
+  "homepage": "https://github.com/AbegaM/NodeJS-Express-Typescript-#readme",
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
